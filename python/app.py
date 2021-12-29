@@ -5,11 +5,10 @@ import asyncio
 import aiohttp
 import functools
 import ssl
-import json
+import itertools
 
 async def fetchCreds(client, uri):
     async with client.post(uri) as resp:
-        # assert resp.status == 200
         return await resp.text()
 
 async def fetchGet(client, uri):
@@ -37,15 +36,16 @@ async def success_carousel(uri):
     async with aiohttp.ClientSession(connector=conn) as client:
         return await fetchGet(client, url)
 
-async def fetch_all(loop, numRequests, delay, url, body, headers):
+async def fetch_all(loop, numRequests, delay, url, body_carousel, headers):
 
-    results = await asyncio.gather(*[fetch_one(loop, url, i, delay, body, headers) for i in range(1, numRequests + 1)], return_exceptions=True)
+    results = await asyncio.gather(*[fetch_one(loop, url, i, delay, body_carousel, headers) for i in range(1, numRequests + 1)], return_exceptions=True)
 
     return results
 
-async def fetch_one(loop, url, iter, delay, body, headers):
+async def fetch_one(loop, url, iter, delay, body_carousel, headers):
 
     delay = iter * delay / 1000
+    body = next(body_carousel)
     # print(" i'm waiting " + str(delay * 1000) + " ms")
     await asyncio.sleep(delay)
 
@@ -76,20 +76,18 @@ def lambda_handler(event, context):
     body = fetched['settings']['body']
 
     headers = fetched['headers']
-    print(headers)
-    print(url)
-    print(body)
-    # return
-    # loop = asyncio.get_event_loop()
+
+    if not (isinstance(body, list)):
+        body = [body]
+
+    body_carousel = itertools.cycle(body)
 
     while True:
         ts = time.time() * 1000
-        print(ts)
-        print(saleTime)
         if saleTime<ts:
             break
 
-    results = loop.run_until_complete(fetch_all(loop, numRequests, delay, url, body, headers))
+    results = loop.run_until_complete(fetch_all(loop, numRequests, delay, url, body_carousel, headers))
 
     for result in results:
         try:
@@ -100,14 +98,15 @@ def lambda_handler(event, context):
         except Exception:
             print('Cant parse' + result)
 
-    return {
-        "res": results
-    }
+    return results
 
-event = []
-event = {
-  "queryStringParameters": {
-    "carousel_uri": "https://localhost:4433"
-  }
-}
-print(lambda_handler(event,1))
+# event = []
+# event = {
+#   "queryStringParameters": {
+#     "carousel_uri": "https://ec2-35-73-139-88.ap-northeast-1.compute.amazonaws.com:4433"
+#   }
+# }
+# results = lambda_handler(event,1)
+
+# for i in results:
+#     print(i)

@@ -35,12 +35,12 @@
   url: 'https://www.binance.com/bapi/nft/v1/private/nft/mystery-box/purchase'
   body: {"number":"1","productId":"170778093912111104"}
 - delay: 20
-  numRequests: 300
+  numRequests: 1
   saleTime: 1640689198000
-  url: 'https://www.binance.com/bapi/nft/v1/private/nft/mystery-box/purchase'
-  body: {"number":"1","productId":"170778093912111104"}
-- delay: 10
-  numRequests: 400
+  url: 'https://www.binance.com/bapi/nft/v1/private/nft/nft-trade/order-create'
+  body: {"amount":"400","productId":18362007,"tradeType":0}
+- delay: 1000
+  numRequests: 5
   saleTime: 1640689198500
-  url: 'https://www.binance.com/bapi/accounts/v1/public/authcenter/auth'
-  body: {}
+  url: "https://www.binance.com/bapi/nft/v1/private/nft/nft-trade/order-create"
+  body: {"amount":"2.2","productId":"18632649","tradeType":"0"}
