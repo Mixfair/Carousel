@@ -1,0 +1,29 @@
+- headers:
+    x-trace-id: 85320398-3171-42c4-9a15-d353a7dbad65
+    csrftoken: a4a6661eed59ee7e7e0c4e66d7fc19e5
+    x-ui-request-trace: 85320398-3171-42c4-9a15-d353a7dbad65
+    user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+      like Gecko) Chrome/91.0.4472.124 Safari/537.36
+    content-type: application/json
+    lang: en
+    fvideo-id: 32ff8be95f33ad6ba0a44b0b866666e29d23cb7b
+    referer: https://www.binance.com/en/nft/mystery-box/detail?number=1&productId=163164431084832768
+    device-info: eyJzY3JlZW5fcmVzb2x1dGlvbiI6IjgwMCw2MDAiLCJhdmFpbGFibGVfc2NyZWVuX3Jlc29sdXRpb24iOiI4MDAsNjAwIiwic3lzdGVtX3ZlcnNpb24iOiJXaW5kb3dzIDEwIiwiYnJhbmRfbW9kZWwiOiJ1bmtub3duIiwic3lzdGVtX2xhbmciOiJlbi1VUyIsInRpbWV6b25lIjoiR01UMCIsInRpbWV6b25lT2Zmc2V0IjowLCJ1c2VyX2FnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzkxLjAuNDQ3Mi4xMjQgU2FmYXJpLzUzNy4zNiIsImxpc3RfcGx1Z2luIjoiQ2hyb21lIFBERiBQbHVnaW4sQ2hyb21lIFBERiBWaWV3ZXIsTmF0aXZlIENsaWVudCIsImNhbnZhc19jb2RlIjoiYmI5YmU4M2EiLCJ3ZWJnbF92ZW5kb3IiOiJ1bmtub3duIiwid2ViZ2xfcmVuZGVyZXIiOiJ1bmtub3duIiwiYXVkaW8iOiIxMjQuMDQzNDc1Mjc1MTYwNzQiLCJwbGF0Zm9ybSI6IkxpbnV4IHg4Nl82NCIsIndlYl90aW1lem9uZSI6IlVUQyIsImRldmljZV9uYW1lIjoiQ2hyb21lIFY5MS4wLjQ0NzIuMTI0IChXaW5kb3dzKSIsImZpbmdlcnByaW50IjoiZGQ1MWU4MGYwZWY0MGRjYWY1MDdhYzVkY2RjNTA0NGQiLCJkZXZpY2VfaWQiOiIiLCJyZWxhdGVkX2RldmljZV9pZHMiOiIifQ==
+    bnc-uuid: deaedf1a-35a6-40bb-a46a-0abadd9d1142
+    clienttype: web
+    x-nft-checkbot-sitekey: 6LeUPckbAAAAAIX0YxfqgiXvD3EOXSeuq0OpO8u_
+    x-nft-checkbot-token: 03AGdBq27FuREWnXmzVcW2ZbkmQsbgFnL8MUoz-IxVlMMC5JoNxIcHz93h7P6ftvlq1ZIn9q1AtFKSWVaduo7SBFnNLu45BqaQc8j1EBbO7bzEaCGhrXuHEi7xoF89_XAPYG4-_yGAPT6fhOIjGE_UJMloGifIcW-dREDvis1jtVDTnlRdOeRdv65fjmd6Rg0EP8YS4SxHH6kTOPQUgQo8DRe1E1rM_MNlhjHZLPKh2pSXIklsZD5BLJNfc6efbo6J45qrEY4rPgbLYx4_Xw24IrMPwSs_lzvBnHDKUzeoG7jEMM2bcr95KXInP-dDoYn1WBROEmM8SKsI3G9jlHQzJsrLyeB4nYkCvvP4DqzeMmuLpk980Gus9qQnv_OobLeGXM0Xj6wyYAf3ax0QpgkKAocZblb191CS7AANwSC_A3nvdLE8uAttO5F3qZt33Oxj9mOFxerNG5C1XtDAdVvvvlqZ6dprc_cDfUTya36DVGknR5thK9bo4RZUZ8lREwEW5FIYL3x1pxIDi9DCJNMgP8FRDGizvg39n8g1Im6ZO6lW-fUPBVvX0CfwQf-sYDyDO2fBhw6fU4Lvw3tiVvnXhV1bttP27fPdQRuZXYyIidkFQwCOcknUZRIsAf6NQ9e16sS0OR7vVMu253oMA_wa0kHyqRY5MyMREnwGwCPBHc6fTQ2_U7IVKRIqvxEdZCeXkxhy0mBsQKeE2dxW7v1D-WMXgYWkOCNyFx7OMQhIBLhTcM6ciB26DzCKYRQaUi1eSh7iAPqmU4g4lRUC-JeudzwNzqERhTIK22cVme86P-iUwz7Y9f-notmsxM9kCtsnxg8O2MLEd3Y7u9Ck5iT3JSQJHd2n9rf1Doc7pL09UQwHD18HiUeJOokKquBH33E4fmwXCmCD7586WsMHcJOm9BJPNoBRNkCdAoCGOF0lq1LsHcptrbIV8d7Cihd9uGPTzSs_szg0dhT0tcdVKrxgPHdo0qBuCu0fA_kNpHVzzo1R99_6oXX4gtaRIepyl1WRsPXrkmpiwet1PhRkfdQp87jktgMuGpUz06i5LpgKgfDccce0u6F89sg_aPjdyZbjGYLTcvolBlgHEB2AB75OFR5Z78i5ntqt9jFuz1bqDtHNkvzuXcengRWgCa03Sa5lYaxYuWTPpSSY1P21goXeeZ79M4-rjgBgyYkoUOdB3HlbDDpfLY052RY
+    cookie: s9r1=EC16D6F8B55FC95CE961DEBF64FD18C4; fiat-prefer-currency=RUB;
+      campaign=accounts.binance.com; source=referral;
+      _ga=GA1.2.819826248.1639436608;
+      bnc-uuid=deaedf1a-35a6-40bb-a46a-0abadd9d1142;
+      d1og=web.358744785.18174E15BAB91F18F543803EE2588AFC; logined=y; lang=en;
+      _gid=GA1.2.1016498948.1639436608;
+      r2o1=web.358744785.A55AD66165BF8F5C65717DBA76E99606;
+      p20t=web.358744785.FF2433F9BC170F7F0C058874F327D189;
+      cr00=28DC79DA28697EB3D4AF1C5D882DBD2C; BNC_FV_KEY_EXPIRE=1639522938356;
+      gtId=e6ff247b-e88a-4b1e-bb1d-c14e3d1fe4b6;
+      f30l=web.358744785.632A95B47DBCDB13D455680323C2156C;
+      sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22358744785%22%2C%22first_id%22%3A%2217db6084d276c-061923a1e4bcc3-6373264-480000-17db6084d285e%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E7%9B%B4%E6%8E%A5%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC_%E7%9B%B4%E6%8E%A5%E6%89%93%E5%BC%80%22%2C%22%24latest_referrer%22%3A%22%22%7D%2C%22%24device_id%22%3A%2217db6084d276c-061923a1e4bcc3-6373264-480000-17db6084d285e%22%7D;
+      BNC_FV_KEY=32ff8be95f33ad6ba0a44b0b866666e29d23cb7b; isAccountsLoggedIn=y;
+      userPreferredCurrency=USD_USD; sajssdk_2015_cross_new_user=1; _gat=1;
